@@ -23,7 +23,7 @@ def iterate_through_hash
   updated_hash = add_a_key_value_pair
   updated_hash.each {|key, value|
     puts "The #{key} summer olympics took place in #{value}"
-  end
+  }
 end
 
 def iterate_through_keys
